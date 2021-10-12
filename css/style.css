@@ -1,0 +1,60 @@
+body {
+    font-family: 'Jost', sans-serif;
+}
+
+h2 {
+    font-family: 'Cormorant', serif;
+}
+
+.header {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_tel {
+    text-decoration: none;
+    color: #27300f;
+    transition: 0.3s ease;
+}
+
+.header_tel:hover {
+    color: #d26a22;
+}
+
+.logo {
+    display: block;
+    background-repeat: no-repeat;
+    background-image: url(/img/logo.svg);
+    width: 120px;
+    height: 32px;
+    margin-right: 120px;
+}
+
+.nav {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-item {
+    margin-right: 48px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #27300f;
+    transition: 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #d26a22;
+}
